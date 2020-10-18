@@ -35,7 +35,7 @@ public class ActivityJ extends AppCompatActivity {
         init();
         Window window = getWindow();
         ViewGroup decor = (ViewGroup) window.getDecorView();
-        View v = LayoutInflater.from(this).inflate(R.layout.activity_f,decor,true);
+    //    View v = LayoutInflater.from(this).inflate(R.layout.activity_f,decor,true);
 
 
     }
