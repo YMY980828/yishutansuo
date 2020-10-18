@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ID_RLayout_Main_Item_SOS"
+    android:layout_width="fill_parent"
+    android:layout_height="54.0dip"
+    android:background="#00ff0000"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8.669983dip"
+        android:background="@drawable/bluetooth"
+        android:layout_marginRight="4dip"
+        />
+
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="50.0dip"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@id/imageView1"
+
+        android:textSize="16.0dip"
+
+        android:text="I-ROBOT_1799639319E8"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/arrow_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+
+        android:layout_marginLeft="3.669983dip"
+        android:layout_marginRight="5.669983dip"
+        android:background="@drawable/common_arrow_right"
+        />
+    <TextView
+        android:id="@+id/pair_stage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2.329987dip"
+        android:layout_toLeftOf="@id/arrow_right"
+        android:textColor="#FFffff"
+        android:text="未配对"
+        android:textSize="12.0dip"
+        />
+
+</RelativeLayout>
+

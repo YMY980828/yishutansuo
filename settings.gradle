@@ -1,0 +1,6 @@
+include ':app1'
+include ':processor'
+include ':annotationses'
+include ':annotations'
+include ':app'
+rootProject.name = "yishutansuo"
